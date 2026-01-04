@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import cardRoutes from './routes/cardRoutes.js';
 import cardTierRoutes from './routes/cardTierRoutes.js';
 import benefitsRoutes from './routes/benefitsRoutes.js';
+import genAIRoutes from './routes/genAIRoutes.js';
 
 dotenv.config();
 
@@ -18,6 +19,7 @@ app.use(express.json());
 app.use('/api/card', cardRoutes);
 app.use('/api', cardTierRoutes); // /api/detect-card-tier
 app.use('/api', benefitsRoutes); // /api/get-benefits, /api/recommend-benefits
+app.use('/api/genai', genAIRoutes); // GenAI endpoints
 
 // Health check
 app.get('/api/health', (req, res) => {
