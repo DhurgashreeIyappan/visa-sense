@@ -1,0 +1,42 @@
+export const translations = {
+  en: {
+    bestForYou: 'Best for You',
+    benefits: 'Benefits',
+    dashboard: 'Benefits Dashboard',
+    exploreBenefits: 'Explore your personalized card benefits',
+    viewAll: 'View All',
+    travel: 'Travel',
+    food: 'Food & Dining',
+    shopping: 'Shopping',
+    ott: 'OTT & Entertainment',
+    complimentary: 'Complimentary',
+    included: 'Included',
+    cashback: 'Cashback',
+    off: 'OFF',
+    points: 'Points',
+    learnMore: 'Learn More',
+    activate: 'Activate',
+    categories: 'Categories',
+    allBenefits: 'All Benefits'
+  },
+  hi: {
+    bestForYou: 'आपके लिए सर्वश्रेष्ठ',
+    benefits: 'लाभ',
+    dashboard: 'लाभ डैशबोर्ड',
+    exploreBenefits: 'अपने व्यक्तिगत कार्ड लाभों का अन्वेषण करें',
+    viewAll: 'सभी देखें',
+    travel: 'यात्रा',
+    food: 'भोजन और डाइनिंग',
+    shopping: 'खरीदारी',
+    ott: 'OTT और मनोरंजन',
+    complimentary: 'निःशुल्क',
+    included: 'शामिल',
+    cashback: 'कैशबैक',
+    off: 'छूट',
+    points: 'अंक',
+    learnMore: 'अधिक जानें',
+    activate: 'सक्रिय करें',
+    categories: 'श्रेणियाँ',
+    allBenefits: 'सभी लाभ'
+  }
+};
